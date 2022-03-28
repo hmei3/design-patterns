@@ -4,7 +4,7 @@ public class Main {
     USPlug uPlug = new USPlug();
     USPlugAdapter uPlugAdapter = new USPlugAdapter(uPlug);
   
-    wallOutlet.charge(uPlugAdapter);
+    wallOutlet.connect(uPlugAdapter);
   }
 } 
 
